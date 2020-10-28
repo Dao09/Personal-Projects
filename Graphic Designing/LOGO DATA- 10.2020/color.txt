@@ -1,0 +1,7 @@
+background = #061D38
+graphic = #C471ED
+Anvith Lobo
+sent
+about an hour ago
+accent = #F64F59
+
