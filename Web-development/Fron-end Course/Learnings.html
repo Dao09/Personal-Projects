@@ -1,9 +1,10 @@
-<html>
-
-<head>
-    <title>
-        Meta, Lists, Img
+<html><!--Complete learning of html Lessons-->
+<!--Example of a comment-->
+<head><!--Portion shown in the tab head below-->
+    <title> 
+        Meta, Lists, Img, Hr, Br, Commenting
     </title>
+    <!--Meta tag and its attributes and it always stays inside head tag-->
     <meta charset="UTF-8">
     <meta name="description" content="This is a test html site made for me understand the basics of HTML">
     <meta name="keyword" content="HTML, META, FRONT END, COURSE, CSS" >
@@ -12,24 +13,41 @@
     <meta http-equiv="refresh" content="3">
 
 </head>
-<h1>Learn!</h1>
-<a href="https://www.goodreads.com/quotes/tag/true-understanding"><h2>By true Understanding</h2></a>
+
 <body>
+    <h1>Learn!</h1>
+    <!--Anchor tag and its attributes-->
+    <a href="https://www.goodreads.com/quotes/tag/true-understanding" ><h2>By true Understanding</h2></a>
+    
+    <!--Anchor tag and its attributes-->
+    <h2>And by <a href="practice.html" target="_blank">practice</a>
+        , <a href="practice.html" target="_Parent">practice</a>
+        , <a href="practice.html" target="_Self">practice</a>
+        , <a href="practice.html" target="_Top">practice!</a>
+    </h2> 
+    <!--Anchor tag and its attributes-->
+    <a href="https://www.pexels.com/photo/city-street-with-cars-and-buildings-at-night-3109671/" target="_blank">
     <img src="..\Images(Folder name)\NS(Image).jpg" alt="Neon Street" height="800">
+    </a>
+   
+    <!--oredred list-->
     <ol >
         <li>ordered list 
         <li>unordered list
-        <li>Don't keep any types in the ul 
+        <!--<br> tag inside list item-->
+        <li><b>Note:</b><br> HTML <b>doesn't</b> count white spaces <br> 
+            Always use https before the link in image tag <br>
+            Don't keep any types in the ul tag</li>
     </ol>
     
-    This is the very first application of meta tag
-
+    <!--unordered list-->
     <ul>
         <li>ordered list 
         <li>unordered list
         <li>It works even without closing the li tag
     </ul>
 
+    <!--definition list-->
     <dl>
         <dt>
             definition list:
@@ -37,6 +55,7 @@
         <dd> Definition list= definition term(dt) + definition details(dd)</dd>
     </dl>
 
+    <!--nested List-->
     <ul>
         <li>
             list item:
@@ -46,5 +65,7 @@
         </li>
     </ul>
 
+
+    
 </body>
 </html>
