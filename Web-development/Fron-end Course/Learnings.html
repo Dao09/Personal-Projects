@@ -9,8 +9,8 @@
     <meta name="description" content="This is a test html site made for me understand the basics of HTML">
     <meta name="keyword" content="HTML, META, FRONT END, COURSE, CSS" >
     <meta name="author" content="SRS">
-    <meta name="viewport" content="width=device-width, initial-scacle=1.0">
-    <meta http-equiv="refresh" content="5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <meta http-equiv="refresh" content="5">-->
 
 </head>
 
@@ -127,7 +127,7 @@
         
     </table>
 
-    <p>Formatting:</p><br>
+    <p>Formatting:</p>
     <p><b>A demo text</b></p>
     <p><strong>A demo text</strong></p>
     <p><i>A demo text</i></p>
@@ -138,25 +138,81 @@
     <p>This<sub> is Demo </sub>text </p>
     <p>This<sup> is Demo </sup>text </p>
 
+<br>
+    <form action="process.php" method="POST">
+       <!--paragraph for better customisation--> <p style="font-size:16; font-family:sans-serif; font-weight:700">
+        Enter Your Full name below ::</p>
 
-    <form>
-            
-        <input type="text" name="First-name" placeholder="First Name" >
+        <input type="text" name="First-name" placeholder="First Name">
+        <input type="text" name="Last-Name"  placeholder="Last Name">
+    <br><br>
 
-        <br> <br>
-        <input type="text" name="Last-name" placeholder="Last Name">
-        <br> <br>
-        <input type="password" name="Password" placeholder="Password">
+        <input type="password" name="password" placeholder="Enter acc pass here">
+    <br><br>
+        <input type="checkbox" name="Cream" value="Cream">Cream
+        <input type="checkbox" name="Mayonnaise" value="Mayonnaise">Mayonnaise
+        <input type="checkbox" name="Butter" value="Butter">Butter
+        <input type="radio" name="Color" value="white">White
+        <input type="radio" name="Color" value="Yellow"> Yelowish
+    <br><br>
 
-        <br><br>
-        
-        <textarea name="comment=box" rows="5" cols="40">
-           
+        <p style="font-size:16; font-family:sans-serif; font-weight:700">
+        Any preferences?</p>
+        <textarea cols="100" row="5">
+
         </textarea>
 
+        <p style="font-size:16; font-family:sans-serif; font-weight:700">
+        Select your date of birth </p>
+        <select name="date range" >
+            <option value="1-10">1-10</option>
+            <option value="11-20" selected>11-20</option>
+            <option value="21-30">21-30</option>
+
+        </select>
+        <select name="Month">
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July"> July</option>
+            <option value="August">August</option>
+            <option value="September" selected>September</option>
+            <option value="October">october</option>
+            <option value="November">november</option>
+            <option value="December">December</option>
+
+        </select>
+
+        <select name="Year">
+
+            <option value="1996">1996</option>
+            <option value="1997">1997</option>
+            <option value="1998" selected>1998</option>
+            <option value="1999">1999</option>
+        </select>
+        
+        
 
 
-    </form>
+
+    <br><br>
+        <input type="submit" name="Submit" value="Finalize">
+        <input type="reset" name="reset" value="clear">
+        <input type="button" name="Back" value="Go Back">
     
+    
+    </form>
+    <p> example &nbsp; for &nbsp spacing &NonBreakingSpace; is here </p>
+
+    <p>This is <span> just</span> a demo</p>
+    <q>This is a quote</q>
+    <blockquote>This is quote</blockquote>
+    <abbr title="World Wide Web">WWW</abbr>
+    <p>&copyCopyright</p>
+    <p>SRS &trade;</p>
+
 </body>
 </html>
