@@ -1,0 +1,28 @@
+h1{
+    color:coral;
+    font-family:lato;
+    font-weight:100;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing: 10px;
+    direction: rtl;
+    word-spacing: 30px;
+}
+
+a{
+    color: royalblue;
+    text-decoration: none;
+
+}
+
+
+p{
+    color:royalblue;
+    font-family:lato;
+    font-weight:5;
+    text-align: justify;
+    direction: rtl;
+    text-indent:80;
+    line-height:30px;
+    
+}
