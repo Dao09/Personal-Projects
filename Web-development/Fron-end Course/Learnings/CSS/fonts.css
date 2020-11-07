@@ -1,0 +1,15 @@
+@font-face{
+    font-family:SRS;
+    src:url(../fonts/IndieFlower-Regular.ttf)
+}
+
+h1{
+    font-family:SRS;
+}
+p{
+    font-size:20;
+    border: 2px solid rebeccapurple;
+    max-width: 1000px;
+    min-width: 500px;
+    font-family:SRS;
+}
