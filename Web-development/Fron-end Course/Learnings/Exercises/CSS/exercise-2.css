@@ -1,0 +1,56 @@
+.main{
+    width:1020px;
+    background-color:black;
+    margin: 0 auto;
+    
+}
+
+.long-top{
+
+    width:1020px;
+    height:200px;
+    background-color: bisque;
+    margin-bottom: 20px;
+    
+}
+
+
+.mid-left{
+
+    width:500px;
+    height:600px;
+    margin-right: 20px;
+    
+    float:left;
+    
+    
+}
+
+.left-top{
+
+    width:500px;
+    height:270px;
+    background-color: lime;
+    margin-bottom:60px;
+
+}
+
+.left-bottom{
+
+    width:500px;
+    height:270px;
+    background-color: cornflowerblue;
+    margin-bottom:60px;
+
+}
+
+
+.mid-right{
+
+    width:500px;
+    height:600px;
+    background-color: rgb(247, 27, 3);
+    float:left;
+ 
+    
+}

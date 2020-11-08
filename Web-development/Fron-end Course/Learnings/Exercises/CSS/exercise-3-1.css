@@ -1,0 +1,58 @@
+.master{
+
+    width:1200px;
+    background-color:black;
+    margin:0 auto;
+
+}
+
+
+
+
+.coral{
+
+    width:1200px;
+    height:200px;
+    background-color: bisque;    
+    margin-bottom:100px;
+
+}
+
+.red{
+
+    width:500px;
+    height:400px;
+    background-color:red;
+    float:left;
+    margin-bottom:100px;
+
+}
+
+.yellow{
+
+    width:500px;
+    height:400px;
+    background-color:yellow;
+    float:right;
+    margin-bottom:100px;
+
+}
+
+.green{
+
+    width:500px;
+    height:400px;
+    background-color:rgb(13, 204, 13);
+    float:left;
+    
+
+}
+
+.blue{
+
+    width:500px;
+    height:400px;
+    background-color:rgb(26, 80, 241);
+    float:right;
+
+}
