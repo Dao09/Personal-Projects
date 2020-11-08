@@ -1,0 +1,41 @@
+.main{
+    width:1000px;
+    
+    background-color:black;
+    margin: 0 auto;
+}
+.long-box{
+    width: 1000px;
+    height:200px;
+    background-color: bisque;
+    
+
+}
+.middle-1{
+    width:500;
+    height:200px;
+    background-color: salmon;
+    float: left;
+    margin-top: 30px;
+    
+}
+
+.middle-2{
+    width:500px;
+    height:200px;
+    background-color: rgb(247, 78, 59);
+    float:right;
+    margin-top: 30px;
+    
+}
+
+
+.last{
+    width:1000px;
+    height:200px;
+    background-color: rgb(247, 27, 3);
+    float:left;
+    clear:both;
+ 
+    
+}
