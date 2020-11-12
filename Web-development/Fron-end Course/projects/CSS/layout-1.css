@@ -1,35 +1,26 @@
 html,body{
+margin: 0;
+
+}
+
+@font-face{
+   font-family: blue-head;
+   src: url(../Fonts/MavenPro-Regular.ttf)
    
-   overflow: hidden;
-   margin:0;
+}
+
+body{
+
+   font-family: sans-serif;
 
 }
 
-.back{
-   background-color: #ededed;
-}
 
 
 .master{
    width:1000;
-   margin: 0 auto;
-}
-
-.long img{
-   float:left;
+   margin: 20 auto;
    
-}
-.small-1 img{
-   border: 3px solid #5fb3bd;
-}
-
-.long h1{
-   float:left;
-   margin-left:100px;
-   margin-top:130px;
-   font-weight:900;
-   font-family: sans-serif;
-   color:#1b2130;
 }
 
 .long{
@@ -37,21 +28,159 @@ html,body{
    height:356;
    border:3px solid #5fb3bd;
    background-color: white;
+  
+}
+
+.long img{
+   float:left;
    
 }
 
+
+.long h1{
+   float:left;
+   margin-left:100px;
+   margin-top:130px;
+   font-weight:900;
+   
+   color:#1b2130;
+}
+
+.small-1 img{
+   border: 3px solid #5fb3bd;
+}
 .small-1{
    
    width:210;
    
    margin-top:30px;
    font-size:14;
-   font-family:Arial, Helvetica, sans-serif;
+   
    float:left;
    margin-right:30px;
    margin-left: 5px;
+   line-height: 25px;
+}
+
+.long-vert{
+
+   width:430px;
+   height:570px;
+   background-color:white;
+   border:5px solid#5fb3bd;
+   float:left;
+   clear: both;
+   margin: 20px 20px 20px 0;
+   padding: 20px;
+   line-height:25px;
+   
+}
+
+.head{
+   position: relative;
+   top: -60px;
+}
+
+.long-vert h2{
+   
+   background-color: #222942;
+   color:white;
+   padding: 10px 20px;
+   
+   float:left;
+   
+   font-family: blue-head;
+   letter-spacing: 2px;
+   font-weight: 500;
+
+}
+
+.long-vert h3{
+   float: left;
+   margin-left: 20px;
+   font-weight: 500;
+   margin-top: 0;
+   
+   
+}
+
+.long-vert img{
+   float: left;
+   clear: left;
+   margin-left:5px ;
+
+}
+
+.long-vert p{
+   float:left;
+   font-size:13;
 }
 
 
+.long-hor-1{
+
+   width:430px;
+   height: 220px;
+   background-color:#519194;
+   border:5px solid#5fb3bd;
+   float:left;
+   margin-top: 20px;
+   
+   padding: 20px;
+   line-height:25px;
+   color: white;
+   
+}
 
 
+.long-hor-1 h2{
+   
+   background-color: #222942;
+   color:white;
+   padding: 10px 20px;
+   margin-left: 5px;
+   float:left;
+   clear: right;
+   font-family: blue-head;
+   letter-spacing: 2px;
+   font-weight: 500;
+}
+
+.long-hor-1 p{
+   float:left;
+   font-size: 13;
+   line-height: 25px;
+   margin-top: -50px;
+}
+
+.long-hor-1 h3 {
+   float: right;
+   margin-top: -10px;
+   font-weight: 500;
+}
+
+
+.long-hor-2{
+
+   width:430px;
+   height: 180px;
+
+   background-color:#519194;
+   border:5px solid#5fb3bd;
+   float:left;
+   margin-top: 20px;
+   padding: 20px;
+   line-height:25px;
+   color: white;
+   line-height: 30px;
+   
+}
+
+.long-hor-2 img{
+
+   float:left;
+   margin-top: -30px;
+
+
+
+}
