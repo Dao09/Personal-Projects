@@ -34,7 +34,7 @@ a{
     background-size:cover;
     background-repeat: no-repeat;
     
-    min-height: 970px;
+    
 }
 
 
@@ -68,6 +68,7 @@ a{
 /*banner starts here----------------------------- */
 .banner{
     padding-top: 17%;
+    padding-bottom: 330px;
     
 }
 
@@ -80,6 +81,7 @@ a{
     font-size:35;
     line-height: 50px;
     font-weight: 400;
+    
 }
 
 .banner button{
@@ -105,7 +107,7 @@ a{
     float: left;
     border-radius: 50%;
     padding: 5px;
-    border: 1px solid #aad3f0;
+    border: 1px solid #9f9fa2;
     width: 28%;
 }
 
@@ -267,6 +269,7 @@ padding: 100px 0;
 .footer{
     text-align:center;
     padding:100px 0;
+    width: 100%;
 }
 
 .footer p{
@@ -283,6 +286,7 @@ padding: 100px 0;
     color: #9f9fa2;
     margin-right: 25px;
     font-size:50;
+    
 }
 
 .social{
@@ -290,7 +294,7 @@ padding: 100px 0;
 }
 
 
-/*.footer span, .icon-wrapper {
+/*.footer span .fa, .icon-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -300,9 +304,11 @@ padding: 100px 0;
 .icon-wrapper{
     border-radius: 50%;
     overflow: hidden;
-    border: 10px double #9f9fa2;
-    font-size: 3rem;
+    border: 5px double #9f9fa2;
+    margin-right: 25px;
+    text-align: center;
     width: 60px;
     height: 60px;
     float: left;
+
 }*/
