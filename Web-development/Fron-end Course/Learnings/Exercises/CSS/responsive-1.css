@@ -1,0 +1,98 @@
+.master{
+    width:80%;
+    height:2600px;
+    margin:0 auto;
+    /* background-color: rebeccapurple; */
+    max-width: 1920px;
+    min-width:640px;
+}   
+
+.top{
+    width: 100%;
+    height:200px;
+    background-color:grey;
+    margin-bottom: 100px;
+}
+
+.menu{
+    width: 100%;
+    height:100px;
+    background-color:grey;
+    margin-bottom: 100px;
+}
+
+.left{
+    float: left;
+    width:65%;
+    height: 1900px;
+    /* background-color:salmon;  */
+}
+
+.blogpost {
+    width: 100%;
+    height:600px;
+    background-color:grey;
+    margin-bottom: 50px;
+}
+
+.blogpost .last{
+    width: 100%;
+    height:500px;
+    background-color:grey;
+    margin: 0;
+}
+
+.right{
+    float: right;
+    width:30%;
+    height: 1900px;
+    /* background-color:beige; */
+    margin-bottom: 100px;
+    
+}
+
+.right .newsletter{
+    width: 100%;
+    height:400px;
+    background-color: grey;
+    margin-bottom: 50px;
+}
+
+.right .credibility{
+    width: 100%;
+    height:500px;
+    background-color:grey;
+    margin-bottom: 50px;
+}
+
+.right .promotion-left{
+    width: 47.5%;
+    height:200px;
+    background-color:grey;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.right .promotion-right{
+    width: 47.5%;
+    height:200px;
+    background-color:grey;
+    margin-bottom: 50px;
+    float:right;
+}
+
+.right .social{
+    clear: both;
+    width: 100%;
+    height:200px;
+    background-color:grey;
+    
+}
+
+.footer{
+    
+    clear: both;
+    width:100%;
+    height: 100px;
+    background-color:grey;
+}
