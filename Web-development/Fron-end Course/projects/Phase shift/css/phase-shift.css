@@ -1,0 +1,373 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+}
+
+.clearfix::after{
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+.centered{
+    width:80%;
+    margin:0 auto;
+}
+
+
+/*navbar starts here*/
+.navbar{
+    width:100%;
+    background-color:#0f1116;
+    color: white;
+}
+
+.navbar h3{
+    float:left;
+    margin-left: 20px;
+
+}
+
+.navbar span{
+    color:#353638;
+    font-weight:400;
+}
+
+.navbar ul{
+    float:right;
+    list-style:none;
+    color:#a7a8aa;
+}
+
+.navbar li{
+    float:left;
+    margin-right:30px;
+}
+
+.navbar a{
+    color: #a7a8aa;
+    text-decoration: none;
+}
+/*navbar ends here*/
+
+/*top starts here*/
+.top{
+    background:url(../img/bg.jpg);
+    background-repeat:repeat-y;
+    background-size:contain;
+    color: #fff;
+    text-align: center;
+}
+
+/* the top paragraph is here */
+.head-div p{
+    margin-top:0;
+    margin-bottom: 70px;
+    padding-top: 100px;
+    font-size:30;
+    font-weight:300;
+}
+
+/*top button is here*/
+.head-div button{
+    background:#d84780;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+    font-family: 'poppins', sans-serif;
+    padding: 10px 40px;
+    font-size:25;
+    font-weight:500;
+    margin-bottom:100px;
+}
+
+.head-div a{
+    color:#fff;
+}
+
+/*6-boxes start here*/
+/*box-1 starts here*/
+.box-1{
+    float:left;
+    background:#fff;
+    width:31%;
+    color: #000000;
+    font-weight: 300;
+    margin-bottom:50px ;
+}
+
+.box-1 img{
+    width:100%;
+    margin-bottom: 50px;
+}
+
+.box-1 p{
+    margin: 0;
+    line-height:30px;
+}
+
+.box-1 button{
+    background:#d84780;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+    font-family: 'poppins', sans-serif;
+    padding: 12px 30px;
+    font-size:18;
+    font-weight:500;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+/*box-mid starts here*/
+.box-mid{
+    float:left;
+    background:#fff;
+    width:31%;
+    color: #000000;
+    font-weight: 300;
+    margin: 0 3.5%;
+}
+
+.box-mid img{
+    width:100%;
+    margin-bottom: 50px;
+}
+
+.box-mid p{
+    margin: 0;
+    line-height:30px;
+}
+
+.box-mid button{
+    background:#d84780;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+    font-family: 'poppins', sans-serif;
+    padding: 12px 30px;
+    font-size:18;
+    font-weight:500;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+/*6-boxes end here*/
+
+/*4-boxes start here*/
+.four-boxes{
+    text-align: left;
+}
+
+.span-left{
+    width:100px;
+    height:140px;
+}
+
+/*small-box-1 left/right here*/
+.small-box-1-left{
+    float: left;
+    width:48.5%;
+    margin: 50px 0;
+    padding-bottom: 50px;
+    border-bottom:1px solid #fff;
+    font-weight: 300;
+}
+
+.small-box-1-right{
+    float: right;
+    width:48.5%;
+    margin: 50px  0;
+    padding-bottom: 50px;
+    border-bottom:1px solid #fff;
+    font-weight: 300;
+}
+
+.small-box-1-left h3, .small-box-1-right h3{
+    display: inline;
+    font-size: 30;
+}
+
+/* icons on left here*/
+.top .span-left{
+    float: left;
+    font-size: 45;
+    margin-top: 10px;
+}
+
+/*small-box-2 left/right here*/
+.small-box-2-left{
+    float: left;
+    width:48.5%;
+    margin-bottom: 100px;
+    font-weight: 300;
+}
+
+.small-box-2-right{
+    float: right;
+    width:48.5%;
+    margin-bottom: 100px;
+    font-weight: 300;
+}
+
+.small-box-2-left h3, .small-box-2-right h3{
+    display: inline;
+    font-size: 30;
+}
+/*top ends here*/
+
+/*bottom starts here */
+.bottom{
+    background-color:#d84780;
+    text-align: center;
+    color:#fff;
+}
+
+.bottom h2{
+    font-size:50;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.bottom p{
+    font-weight:300;
+    font-size:22;
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+
+input::placeholder{
+    color:#d1d1d1;
+}
+
+/*form name is here*/
+label{
+    display: block;
+    margin-left:-65%;
+}
+
+.name input{
+    width: 70%;
+    border:none;
+    border-radius:5px;
+    height:50px;
+    font-size: 16;
+    padding-left: 15px;
+}
+
+/*form email is here*/
+
+.email input{
+    width: 70%;
+    border:none;
+    border-radius:5px;
+    height:50px;
+    font-size: 16;
+    padding-left: 15px;
+}
+
+.comment{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.comment label{
+    margin-left:-90%;
+}
+
+.comment textarea{
+    width: 100%;
+    height:310px;
+    border:none;
+    border-radius:5px;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 16;
+}
+
+textarea::placeholder{
+    font-family: 'poppins', sans-serif;
+    color:#d1d1d1;
+}
+
+
+/*footer starts here*/
+.footer {
+    text-align:center;
+    background: #0f1116;
+    color: #333439;
+}
+
+.footer p{
+    margin-top: 0;
+    padding: 50px 0;
+}
+
+.footer a{
+    color: #777878;
+    text-decoration: none;
+}
+
+.social .fa{
+    font-size: 20;
+    color:#777878;
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+
+
+
+@media only screen and (max-width:1280px){
+    
+    /* navbar starts here */
+    .navbar ul{
+        float: left;
+        clear: both;
+        padding-left: 20px;
+    }
+    
+    /* TOP starts here */
+    .top p{
+        font-size: 24;
+    }
+
+    .box-1{
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+
+    .box-1 p{
+        font-size: 20;
+    }
+
+    .box-mid{
+        width: 80%;
+        margin: 50px 10%;
+    }
+
+    .box-mid p{
+        font-size: 20;
+    }
+
+    .small-box-1-left{
+        width: 100%;
+    }
+
+    .small-box-1-right{
+        width: 100%;
+        
+    }
+
+    .small-box-2-left{
+        width: 100%;
+        padding-bottom: 50px;
+        border-bottom:1px solid  #fff;
+    }
+
+    .small-box-2-right{
+        width: 100%;
+    }
+
+    
+}
