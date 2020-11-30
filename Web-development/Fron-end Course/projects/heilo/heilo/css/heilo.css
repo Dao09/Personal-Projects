@@ -1,0 +1,315 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:'Poppins', sans-serif;
+}
+
+.clearfix::after{
+    content:" ";
+    clear:both;
+    display:block;
+}
+
+/*top-img starts here*/
+.top-img{
+    width:100%;
+    background:url(../img/slide01.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    color:#fff;
+    padding-top:30px;
+}
+
+/*nav div here*/
+.nav span{
+    color: #fff;
+    font-size:18;
+}
+.top-img .nav h4{
+    float:left;
+    font-weight: 400;
+    color:#acbebe;
+    margin-left: 25px;
+}
+
+.top-img .nav p{
+    float: right;
+    margin-right: 25px;
+    font-size: 18;
+}
+
+/*center-texttop starts here*/
+.center-texttop{
+    padding-top: 210px;
+    padding-bottom:310px;
+    width: 70%;
+    clear:both;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center-texttop p{
+    color:#acbebe;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.center-texttop span{
+    color:#fff;
+}
+
+.center-texttop hr{
+    width:25%;
+    border:0.5px solid #acbebe;
+    border-bottom:none;
+}
+
+.center-texttop h1{
+    font-size:120;
+    font-weight:400;
+    margin-top: 0px;
+}
+/*top-img  ends here*/
+
+/*back-full starts here*/
+.back-full{
+    background:#f2f2f2;
+    padding:100px 0;
+}
+
+/*centered here-------------------------*/
+.centered{
+    width:70%;
+    margin:0 auto;
+}
+
+/*box-1 starts here*/
+.box-1{
+    width:48%;
+    background-color:#fff;
+    float: left;
+    text-align:center;
+}
+
+.box-1 img{
+    width:100%;
+    margin-bottom:50px;
+}
+
+/* top para here */
+.box-1 .top{
+    color:#9fa19f;
+    letter-spacing: 5px;
+    font-size: 14;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.box-1 hr{
+    width:60%;
+    border-top: 1px solid #dfdfdf;
+    border-bottom:none;
+}
+
+.box-1 h3{
+    text-align: center;
+    font-size: 30;
+    font-weight:400;
+    margin:0;
+}
+
+.bottom{
+    color:#9fa19f;
+    padding:50px;
+    margin:0;
+    text-align: left;
+}
+
+.back-full button{
+
+    background:none;
+    border:2px solid #d9d9d9;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*box-1 ends here*/
+
+/*box-2 starts here*/
+.box-2{
+    width:48%;
+    background-color:#fff;
+    float: right;
+    text-align:center;
+}
+
+.box-2 img{
+    width:100%;
+    margin-bottom:50px;
+}
+
+/* top para here */
+.box-2 .top{
+    color:#9fa19f;
+    letter-spacing: 5px;
+    font-size: 14;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.box-2 hr{
+    width:60%;
+    border-top: 1px solid #dfdfdf;
+    border-bottom:none;
+}
+
+.box-2 h3{
+    text-align: center;
+    font-size: 30;
+    font-weight:400;
+    margin:0;
+}
+
+.box-2 .bottom{
+    color:#9fa19f;
+    padding:50px;
+    margin:0;
+    text-align: left;
+}
+/*box-2 ends here*/
+
+/*mid-full starts here*/
+.mid-full{
+    text-align:center;
+    padding:100px 0;
+    background: url(../img/bg.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+
+.mid-full hr{
+    width:50%;
+    border:1px solid #868e8d;
+}
+
+.mid-full p{
+    color:#868e8d;
+}
+
+.mid-full h3{
+    font-weight:400;
+    font-size:30;
+    margin: 0;
+}
+/*mid-full ends here*/
+
+/*4-boxes container div starts here*/
+.back-full{
+
+    text-align:center;
+}
+
+/* para for bottom back-full */
+.bottom-top{
+    color:#9fa19f;
+    letter-spacing:5px;
+    
+}
+
+.back-full hr{
+    border:1px solid #9fa19f;
+    width:50%;
+}
+
+.back-full h3{
+    font-weight:400;
+    font-size:30;
+    margin-top: 20px;
+    margin-bottom:50px;
+}
+
+/* 4 boxes div starts here */
+.boxtop-left{
+    width:45%;
+    float:left;
+    margin-bottom: 70px;
+    padding:20px;
+    background-color: #fff;
+}
+
+.boxtop-left img, .boxtop-right img, .boxbottom-left img, .boxbottom-right img{
+    width:100%;
+}
+
+.boxtop-right{
+    width:45%;
+    float:right;
+    margin-bottom: 70px;
+    padding:20px;
+    background-color: #fff;
+}
+
+
+.boxbottom-left{
+    width:45%;
+    float:left;
+    padding:20px;
+    background-color: #fff;
+}
+
+
+.boxbottom-right{
+    width:45%;
+    float:right;
+    padding:20px;
+    background-color: #fff;
+}
+/*4-boxes container div ends here*/
+
+.footer{
+    background: #000000;
+    color:#fff;
+    text-align:center;
+    padding: 80px 0;
+    color:#808080;
+}
+
+.footer span{
+    font-size:40;
+    margin-right: 20px;  
+}
+
+.social{
+    margin-bottom:50px;
+}
+
+/* media query starts here */
+@media only screen and (max-width:1160px){
+
+    /* boxes in back-full top is here */
+    .box-1{
+        width:100%;
+        margin-bottom: 100px;
+    }
+
+    .box-2{
+        width:100%;
+    
+    }
+
+    /* img boxes in back-full-2 is here */
+    .boxtop-left, .boxtop-right, .boxbottom-left, .boxbottom-right{
+        width: 100%;
+        float: left;
+        clear: both;
+
+    }
+
+    .boxbottom-left{
+        margin-bottom:100px;
+    }
+
+}
