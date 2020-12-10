@@ -1,0 +1,188 @@
+body{
+
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* top wrapper starts here */
+.top-wrapper{
+    background:url(../IMG/dd.jpg);
+    color:#fff;
+    text-align:center;
+    border-top:5px solid #5385c1;
+}
+
+.top-wrapper #mynav{
+    background:none;
+    color:#fff;
+    border:0;
+}
+
+#mynav a{
+    color:#fff;
+}
+
+/* banner starts here */
+.banner{
+    padding: 120px 0 200px;
+
+}
+
+.banner h1{
+    font-size:60px;
+    font-weight:100;
+
+}
+
+.banner p{
+    font-weight:100;
+    font-size: 18px;
+    margin-top: 30px;
+}
+/* bannerends here */
+/* top-wrapper ends here */
+
+
+
+/* three-boxes starts here */
+.three-boxes{
+    margin: 100px 0;
+}
+
+.box h3{
+    font-size: 30px;
+    font-weight:300;
+    color: #5385c1;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.box p{
+    color: #a09f9d;
+    line-height: 30px;
+    margin-bottom:30px;
+}
+
+/* button */
+.btype-1{
+    padding:10px 30px;
+    background:#5385c1;
+    border:none;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+}
+/* three boxes end here */
+
+
+
+/* mid-section starts here */
+.mid{
+    background: #5385c1;
+    color:#fff;
+    text-align:center;
+    padding: 50px 0 100px;
+}
+
+/* heading is here */
+.top-head{
+    margin: 50px 0;
+}
+.top-head h1{
+    font-weight: 100;
+    font-size:50px;
+}
+
+.top-head p{
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+/* 4 boxes start here */
+.four-box{
+    border: 0.5px solid #b4cbe5;
+    padding: 50px 30px;
+    
+    
+}
+
+.four-box img{
+    width:80%;
+    border-radius:50%;
+}
+
+.four-box h3{
+    font-weight:300;
+    font-size:20px
+}
+
+.four-box p{
+    font-weight: 300;
+    font-size:14px;
+    color:#b4cbe5;
+}
+/* mid-section ends here */
+
+/* two-section starts here */
+.sec-top{
+    margin-top:100px
+}
+
+.sec-top h1{
+    color: #5385c1;
+    font-weight: 100;
+    font-size:50px;
+    margin-bottom: 20px;
+}
+
+.sec-top p{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.sec-1{
+    margin-top: 50px;
+}
+
+.left-pad{
+    padding-left:25px ;
+}
+.right-pad{
+    padding-right:25px ;
+}
+
+.sec-1 img{
+    width:100%;
+    
+}
+
+.sec-1 h3{
+    color: #5385c1;
+    margin:30px 0;
+    font-weight:300;
+}
+
+.sec-1 p{
+    color: #a09f9d;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+/* two-section ends here */
+
+/* footer starts here */
+.footer{
+    margin-top: 100px;
+    padding:50px 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+.footer p{
+    color:#dbdbdb;
+}
+
+.footer span{
+    color: #5385c1;
+    font-size:18px ;
+}
