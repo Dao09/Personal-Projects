@@ -6,7 +6,7 @@ $(function(){
       $(".red").fadeToggle(1000);
       $(".blue").hide(1000);
       $(".blue").show(100);
-      $("p").slideUp();
+      $("p").hide();
       $("p").slideDown();
     //   $(".green").animate({"margin-top":"50px"},1000);
     //   $(".green").animate({"margin-top":"-=50px"},2000);
@@ -24,10 +24,16 @@ $(function(){
         width:"150px",
         "opacity":"1",
       },1000)
+
     }
     
     
-    
+    $(".box").delay(2000).fadeIn(1000);
 
+   
 
 })
+
+function hide_div(){
+    $(".box").fadeOut();
+}

@@ -44,9 +44,46 @@ html,body{
     border-radius:5px;
 }
 
-h1{
-    border-bottom: 1px solid grey;
+#content h1{
     clear: both;
     position: relative;
     top:20px;
+    z-index: 0;
+}
+#content p{
+    clear: both;
+    position: relative;
+    top:20px;
+    z-index: 0;
+
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+    top:-55%;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.box::before{
+    content: '';
+    background-color: royalblue;
+    position: absolute;
+    top: 0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    opacity: 0.5;
+    z-index: 0;
+
+}
+
+.box input,h1,p,button{
+    position: relative;
+    top: 300px;
+    
 }
