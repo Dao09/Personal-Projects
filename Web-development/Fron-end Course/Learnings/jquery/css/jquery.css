@@ -1,0 +1,52 @@
+html,body{
+    background:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+#content{
+    background: #fff;
+    padding:5%;
+    border-radius:10px;
+    margin-top: 100px;;
+    width: 90%;
+}
+
+.red{
+    width: 150px;
+    height:150px;
+    background:red;
+    float:left;
+    margin-right:10px;
+    border-radius:5px;
+}
+
+
+.green{
+    width: 150px;
+    height:150px;
+    background:greenyellow;
+    float:left;
+    margin-right:10px;
+    border-radius:5px;
+}
+
+.blue{
+    width: 150px;
+    height:150px;
+    background:royalblue;
+    float:left;
+    border-radius:5px;
+}
+
+h1{
+    border-bottom: 1px solid grey;
+    clear: both;
+    position: relative;
+    top:20px;
+}
