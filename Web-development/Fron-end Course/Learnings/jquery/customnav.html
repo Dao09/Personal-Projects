@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>demo cutom nav</title>
+
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/navbar.css">
+    </head>
+
+    <body>
+        <nav id="mynav">
+            <h1>Megacorp</h1>
+
+            <ul>
+                <li>Products</li>
+                <li>Services</li>
+                <li>Past Work</li>
+                <li>Contact Us</li>
+            </ul>
+
+            <button type="button">Expand</button>
+        </nav>
+
+        <script>
+                $("button").click(function(){
+                    $("ul").slideToggle();
+                })
+
+        </script>
+
+    </body>
+</html>
