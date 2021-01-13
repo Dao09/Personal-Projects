@@ -1,0 +1,16 @@
+.test{
+    width: 200px;
+    height:200px;
+    margin:100 auto;
+    background-color:royalblue;
+    /* transition-duration:1s;
+    /* transition-property: height; 
+    transition-timing-function: ease-in;
+    transition-delay:1s; */
+    transition:all 1s ease-in-out 0s;
+}
+
+
+.test:hover{
+    transform: scale(1.5);
+}

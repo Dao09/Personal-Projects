@@ -1,0 +1,43 @@
+.random{
+
+    width: 400px;
+}
+.random p{
+    font-size: 20px;
+    /* white-space: pre; */
+    /* text-decoration: overline;*/
+    /* text-decoration-color:burlywood;
+    text-decoration-style:dashed;
+    text-align:justify;
+    text-justify:inter-cluster; */
+    /* word-break: break-all; */
+    /* word-wrap:break-word; */
+    /* text-align-last: center; */
+    /* white-space:nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    text-overflow: "....";works only with firefox */
+
+    /*background:url(../IMG/pic-demo.jpeg);
+    padding: 10px;
+    -webkit-background-clip: text;
+    color:transparent;
+    background-size: 100%;
+    background-repeat: no-repeat; */
+
+
+
+    /* border:0px solid;
+    /* border-image-source: url("../IMG/border.png");
+    border-image-slice: 28;
+    border-image-repeat: round;
+    border-image-outset: 20px; 
+    /* border-image: url("../IMG/border.png") 27 / 10px 20px / 10px round; 
+    border-image: linear-gradient(rgb(0,143,104), rgb(250,224,66)) ;
+    border-image-slice: 27; */
+}
+
+.random p:hover{
+    overflow: visible;
+    text-overflow:normal;
+}

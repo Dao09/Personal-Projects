@@ -1,0 +1,108 @@
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    width: 1150px;
+    height: 1400px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    /* (justify-self and align-self and ..-content not working whyy?) */
+}
+
+/* left section starts here */
+.left{
+    width:550px;
+    height:1400px;
+    display: flex;
+    flex-wrap:wrap;
+    align-content:space-between;
+    justify-content: space-between;
+}
+
+.coral{
+    width:550px;
+    height:500px;
+    background-color: lightcoral;
+}
+
+.yellow{
+    width:320px;
+    height:400px;
+    background-color: yellow;
+}
+
+.green{
+    width:200px;
+    height:400px;
+    background-color: green;
+}
+
+.black{
+    width:120px;
+    height:400px;
+    background-color: black;
+}
+/* left ends here */
+
+/* right starts here */
+.right{
+    width:550px;
+    height:1400px;
+    display: flex;
+    flex-wrap:wrap;
+    align-content:space-between;
+    justify-content: space-between;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-content:space-between;
+    justify-content: space-between;
+}
+
+.top-long{
+    width:150px;
+    height:500px;
+}
+
+.grey{
+    background:grey;
+}
+
+.brown{
+    background:brown
+}
+
+.darkgreen{
+    background:darkgreen;
+}
+
+
+.purple{
+    background-color:#6e49ca;
+    width: 260px;
+    height:200px;
+}
+
+.pink{
+    background-color:#f36abd;
+    width: 260px;
+    height:200px;
+}
+
+.lightgreen{
+    background-color: #548324;
+    width:100%;
+    height:200px;
+}
+
+.darkcyan{
+    background-color: #008b8c;
+    width:100%;
+    height:200px;
+}
+

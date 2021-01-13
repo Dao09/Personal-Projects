@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+    background-color: lightblue;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content: flex-start;
+    
+    /* align-items:baseline; */
+    /* flex-flow:row wrap; */
+    /* justify-content:flex-start; (horizontal arrangement)*/
+}
+
+.box{
+    width:200px;
+    height:100px; 
+    padding:40px;
+    font-size:20px;
+}
+
+.box1{
+    background:limegreen;
+}
+
+.box2{
+    background:red;
+}
+
+.box3{
+    background:green;
+}
+
+.box4{
+    background:salmon;
+}
+
+.box5{
+    background:saddlebrown;
+}
+
+.box6{
+    background:yellowgreen;
+}
+
+.box7{
+    background:honeydew;
+}
