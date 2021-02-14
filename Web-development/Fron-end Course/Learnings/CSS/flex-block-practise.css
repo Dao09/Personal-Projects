@@ -1,0 +1,30 @@
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    width:800px;
+    height:1000px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.coral{
+    background:coral;
+    width:800px;
+    height:200px;
+}
+
+.yellow{
+    background:yellow;
+    width:375px;
+    height:300px;
+}
+
+.purple{
+    background: purple;
+    width:800px;
+    height:200px;
+}   
